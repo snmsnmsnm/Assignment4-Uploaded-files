@@ -49,7 +49,7 @@ public class TestBigRational extends BigRational {
         
         //Testing pow method for br5
         try {
-            System.out.println("(" + br5.toString() + ")" + " to power of 6 " + " = " + br5.pow(-6));
+            System.out.println("(" + br5.toString() + ")" + " to power of -6 " + " = " + br5.pow(-6));
         } catch (NumberFormatException ex) {
             System.out.println(ex);
         }
